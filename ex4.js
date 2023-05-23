@@ -38,11 +38,6 @@ function Electronics (name, power, batteryPercent, batteryCapacity) {
 }
 Electronics.prototype = new Device()
 
-// Electronics.prototype.chargeBattery = function(chargeTimeHours){
-//     this.switch
-//     this.batteryPercent += chargeTimeHours * this.getCurrent() * 0.001 //mAH
-// }
-
 //create instances of a Device childs
 lamp = new CommonDevices('Ikea lamp', 10, 'Led_lamp', 'blue')
 laptop = new Electronics("HP laptop", 100 , 50, 4500)
