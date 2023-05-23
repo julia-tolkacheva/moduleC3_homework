@@ -6,9 +6,6 @@ const soup = Object.create(food);
 soup.soupName = "Borcsh"
 soup.color = "red"
 
-// console.log(soup)
-// console.log(soup.foodType)
-
 function getObjectWithoutProto(){
     return Object.create(null)
 }
