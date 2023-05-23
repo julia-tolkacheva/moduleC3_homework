@@ -6,9 +6,6 @@ const soup = Object.create(Food);
 soup.soupName = "Borcsh"
 soup.color = "red"
 
-// console.log(soup)
-// console.log(soup.foodType)
-
 function getAllObjectFields(obj){
     console.log(`This function prints all properties of an object`)
     for(let key in obj) {
